@@ -1,0 +1,137 @@
+body {
+    margin: 100px;
+}
+
+/* header */
+.select {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-items {
+    display: flex;
+}
+
+.one-item {
+    padding-left: 15px;
+}
+
+/* writings and button and camera */
+.first-section {
+    display: flex;
+}
+
+.writings {
+    width: 50%;
+}
+
+.headline {
+    font-size: 50px;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    border-radius: 15px;
+    padding-top: 13px;
+}
+
+.camera {
+    width: 50%;
+}
+
+/* logos added */
+hr {
+    margin-top: 50px;
+    border: 1px solid lightgrey;
+    width: 80%;
+}
+
+.all-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 135px;
+    margin-top: 60px;
+}
+
+/* three column card */
+.title {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.all-collection {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 110px;
+
+}
+
+.one-collection {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px;
+}
+
+.rattings {
+    color: gold;
+}
+
+.font-style {
+    color: darkgray;
+}
+
+.see-more {
+    color: crimson;
+    float: right;
+}
+
+/*----------------- Forth Part------------------ */
+.image-info {
+    display: flex;
+    margin-top: 200px;
+}
+
+.image-forth {
+    margin-top: 50px;
+    width: 50%;
+}
+
+.info-forth {
+    width: 50%;
+}
+
+.details {
+    color: darkgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*------------------ footer-part------------ */
+footer {
+    margin-top: 100px;
+}
+
+.last-part {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(36, 2, 60);
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
